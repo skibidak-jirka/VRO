@@ -41,3 +41,20 @@ footer {
   margin-top: 40px;
   color: #777;
 }
+
+/* Button styling */
+.download-btn {
+  display: inline-block;
+  padding: 15px 30px;
+  background-color: #28a745;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 1.2em;
+  transition: background-color 0.3s;
+}
+
+.download-btn:hover {
+  background-color: #218838;
+}
+
