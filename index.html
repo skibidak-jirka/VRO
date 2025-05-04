@@ -3,21 +3,31 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Download My EXE File</title>
+  <title>Download Files</title>
   <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
   <header>
-    <h1>Welcome to My Download Page</h1>
-    <p>Click the link below to download the EXE file.</p>
+    <h1>Welcome to My File Download Page</h1>
+    <p>Click below to download different types of files.</p>
   </header>
+  
   <main>
     <section>
-      <h2>Download the EXE</h2>
-      <p>Click the button below to download the EXE file:</p>
-      <a href="yourfile.exe" download class="download-btn">Download EXE</a>
+      <h2>Download Links</h2>
+      <ul>
+        <!-- Download .exe file -->
+        <li><a href="program.exe" download="program.exe" class="download-btn">Download EXE File</a></li>
+        
+        <!-- Download .png image -->
+        <li><a href="image.png" download="image.png" class="download-btn">Download PNG Image</a></li>
+        
+        <!-- Download .txt file -->
+        <li><a href="example.txt" download="example.txt" class="download-btn">Download Text File</a></li>
+      </ul>
     </section>
   </main>
+  
   <footer>
     <p>© 2025 My Name. All rights reserved.</p>
   </footer>
