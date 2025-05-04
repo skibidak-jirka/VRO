@@ -51,10 +51,10 @@ footer {
   text-decoration: none;
   border-radius: 5px;
   font-size: 1.2em;
+  margin-bottom: 10px;
   transition: background-color 0.3s;
 }
 
 .download-btn:hover {
   background-color: #218838;
 }
-
